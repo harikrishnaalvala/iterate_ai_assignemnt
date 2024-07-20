@@ -1,0 +1,145 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container Styles */
+.container0 {
+  text-align: center;
+  background-color: #f7f7f7;
+  padding: 20px;
+}
+
+.main-heading {
+  font-size: 2em;
+  margin: 20px 0;
+  color: #333;
+}
+
+.main-image {
+  border-radius: 10px;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Puja List Styles */
+.puja-list {
+  padding: 40px 20px;
+  background-color: #fff;
+}
+
+.section-heading {
+  font-size: 1.75em;
+  margin-bottom: 30px;
+  color: #444;
+  text-align: center;
+}
+
+.bookingpagemenu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Puja Card Styles */
+.puja-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+  overflow: hidden;
+  transition: transform 0.2s;
+}
+
+.puja-card:hover {
+  transform: translateY(-5px);
+}
+
+.puja-card-image {
+  width: 100%;
+  height: auto;
+}
+
+.puja-card-content {
+  padding: 20px;
+}
+
+.puja-card-title {
+  font-size: 1.25em;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.puja-card-subtitle {
+  font-size: 1em;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.puja-card-description {
+  font-size: 0.9em;
+  margin-bottom: 10px;
+  color: #666;
+}
+
+.puja-card-info {
+  font-size: 0.9em;
+  margin-bottom: 15px;
+}
+
+.puja-card-location, .puja-card-date {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.puja-card-location img, .puja-card-date img {
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+}
+
+.puja-card-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #38a169;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.puja-card-button img {
+  margin-left: 10px;
+}
+
+.puja-card-button:hover {
+  background-color: #2f855a;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .container0 {
+    padding: 16px;
+  }
+
+  .main-heading {
+    font-size: 1.75em;
+  }
+
+  .bookingpagemenu {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .puja-card {
+    max-width: 100%;
+  }
+}

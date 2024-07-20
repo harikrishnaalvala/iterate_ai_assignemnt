@@ -1,0 +1,68 @@
+.mainpoojapage {
+    padding-left: 5rem;
+    padding-right: 5rem;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.history {
+    display: flex;
+    align-items: center;
+    gap: 0.625rem;
+}
+
+.poojapagecontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    text-align: center;
+}
+
+.imagepoojapage {
+    height: 6.25rem;
+    width: 6.25rem;
+}
+
+.poojabooktext {
+    color: #666;
+    font-size: 1.875rem;
+    margin: 1.25rem 0;
+}
+
+.bookpoojabutton {
+    background-color: #FD7D2B;
+    padding: 0.938rem 1.875rem;
+    border-radius: 1.25rem;
+    color: white;
+    text-decoration: none;
+    font-size: 1.125rem;
+    margin-top: 1.25rem;
+    transition: background-color 0.3s ease;
+}
+
+.bookpoojabutton:hover {
+    background-color: #e66d21;
+}
+
+@media (max-width: 767px) { 
+    .poojapagecontent {
+        height: 100vh;
+    }
+    .history {
+        font-size: 0.625rem;
+        text-align: left;
+    }
+    .imagepoojapage {
+        margin-top: 4.375rem;
+        height: 6.25rem;
+        width: 6.25rem;
+    }
+    .poojabooktext {
+        font-size: 1.25rem;
+    }
+    .bookpoojabutton {
+        padding: 0.625rem 1.25rem;
+        font-size: 1rem;
+    }
+}

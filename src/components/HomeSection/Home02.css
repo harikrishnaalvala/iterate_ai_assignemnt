@@ -1,0 +1,120 @@
+.poojacardcontainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.puja-card, .puja-card02 {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: white;
+  transition: transform 0.3s;
+  margin: 10px;
+  max-width: 450px;
+  max-height: 900px;
+  padding: 10px;
+}
+
+.puja-card:hover, .puja-card02:hover {
+  transform: scale(1.05);
+}
+
+.puja-card-image, .mantra-card-image {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.puja-card-content {
+  padding: 16px;
+}
+
+.puja-card-title {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin: 5px;
+  color: #D61F69;
+  text-align: center;
+}
+
+.puja-card-subtitle {
+  font-size: 2rem;
+  color: #000000;
+  margin: 4px 0;
+  text-align: left;
+}
+
+.puja-card-description {
+  font-size: 1.9rem;
+  margin: 8px 0;
+  color: #666;
+  text-align: left;
+}
+
+.puja-card-info {
+  font-size: 2.5rem;
+  color: rgb(62, 62, 62);
+  margin: 25px 0;
+  font-weight: normal;
+}
+
+.puja-card-location,
+.puja-card-date {
+  margin: 17px 0;
+  text-align: left;
+}
+
+.imhe {
+  height: 35px;
+  margin-right: 8px;
+}
+
+.puja-card-button {
+  background-color: rgb(53, 137, 64);
+  color: white;
+  border: none;
+  width: 100%;
+  border-radius: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.all-link {
+  text-align: left;
+  text-decoration: underline;
+  color: #F18912;
+}
+
+.bottonContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.bottomhead01 {
+  font-size: 2.5rem;
+  color: black;
+  font-weight: bold;
+}
+
+.bottomhead02 {
+  font-size: 2rem;
+  color: #666;
+  font-weight: normal;
+}
+
+.bottomhead03 {
+  margin: 5px 0;
+}
+
+.bottomimage {
+  width: 100%;
+  height: auto;
+  max-width: 300px;
+}
